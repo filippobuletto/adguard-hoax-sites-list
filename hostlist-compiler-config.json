@@ -1,0 +1,36 @@
+{
+    "name": "filippobuletto/adguard-hoax-sites-list",
+    "description": "DNS block list that can be used for AdGuardHome. (Does not work with Pi-hole)",
+    "homepage": "https://github.com/filippobuletto/adguard-hoax-sites-list",
+    "license": "MIT",
+    "sources": [
+        {
+            "source": "https://filippobuletto.github.io/pihole-hoax-sites-list/coronavirus-misinformation-tracking-center.txt",
+            "name": "News Guard: Coronavirus misinformation",
+            "type": "adblock",
+            "transformations": [
+                "RemoveComments",
+                "Compress",
+                "Deduplicate",
+                "Validate"
+            ]
+        },
+        {
+            "source": "https://filippobuletto.github.io/pihole-hoax-sites-list/the-black-list-la-lista-nera-del-web.txt",
+            "name": "Bufale.net: THE BLACK LIST",
+            "type": "adblock",
+            "transformations": [
+                "RemoveComments",
+                "Compress",
+                "Deduplicate",
+                "Validate"
+            ]
+        }
+    ],
+    "transformations": [
+        "RemoveComments",
+        "Deduplicate",
+        "RemoveEmptyLines",
+        "TrimLines"
+    ]
+}
