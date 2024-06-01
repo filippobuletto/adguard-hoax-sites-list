@@ -3,7 +3,7 @@
 ! Description: DNS block list that can be used for AdGuardHome. (Does not work with Pi-hole)
 ! Homepage: https://github.com/filippobuletto/adguard-hoax-sites-list
 ! License: MIT
-! Last modified: 2024-05-01T01:25:07.151Z
+! Last modified: 2024-06-01T01:34:32.524Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.24
 !
